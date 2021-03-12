@@ -1,5 +1,7 @@
 Un script babashka simple pour générer des lettres en français à partir de fichiers edns.
 
+Nécessite [babashka](https://github.com/babashka/babashka) et [pdflatex](https://www.tug.org/applications/pdftex/) installés. pdflatex vient avec la plupart des distributions LaTeX existantes.
+
     (def cli-options
       ;; An option with a required argument
       [["-t" "--template TEMPL" "LaTeX template"
